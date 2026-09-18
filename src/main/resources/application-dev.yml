@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:finvault}
+    username: ${DB_USER:finvault}
+    password: ${DB_PASSWORD:finvault}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    show-sql: true
+
+logging:
+  level:
+    com.finvault: DEBUG
