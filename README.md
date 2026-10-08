@@ -1,6 +1,6 @@
 # FinVault — Digital Wallet & Payment Platform
 
-A production-style **fintech backend** built with the complete **Java Spring Boot stack**, designed as a portfolio/CV project demonstrating enterprise backend skills.
+A production-style **fintech backend** built with the complete **Java Spring Boot stack**, designed demonstrating enterprise backend skills.
 
 ## What It Does
 
@@ -148,9 +148,7 @@ Tests include:
 - **Controller tests** (MockMvc) for REST layer
 - **Integration tests** (Testcontainers PostgreSQL + Embedded Kafka)
 
-## CV / Interview Talking Points
-
-When presenting this project, highlight:
+Highlight:
 
 1. **Transactional integrity** — Pessimistic locking on wallets prevents race conditions during transfers
 2. **Event-driven architecture** — Kafka publishes transaction/notification events for decoupled processing
@@ -161,6 +159,3 @@ When presenting this project, highlight:
 7. **Containerization** — Multi-stage Docker build, full docker-compose stack
 8. **CI/CD** — GitHub Actions pipeline with PostgreSQL service container
 
-## License
-
-MIT
